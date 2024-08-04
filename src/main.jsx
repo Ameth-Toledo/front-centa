@@ -8,6 +8,11 @@ import Register from './components/Page/Register/Register.jsx'
 import HomeEmpleado from './components/Page/Empleado/Home/HomeEmpleado.jsx'
 import VerProductos from './components/Page/Empleado/VerProductos/VerProductos.jsx'
 import VenderProductos from './components/Page/Empleado/VenderProductos/VenderProductos.jsx'
+import VerProductosHome from './components/Page/VerProductosHome/VerProductosHome.jsx'
+import Planes from './components/Page/Mensualidades/Planes/Planes.jsx'
+import PlanesHome from './components/Page/Mensualidades/PlanesHome/PlanesHome.jsx'
+import ClientesRegistrados from './components/Page/ClientesRegistrados/ClientesRegistrados.jsx'
+import HomeAdministrador from './components/Page/Administrador/Home/Administrador.jsx'
 
 const router=createBrowserRouter ([
     {
@@ -31,8 +36,28 @@ const router=createBrowserRouter ([
       element: <VerProductos/>
     },
     {
-     path: '/vender-productos',
-     element: <VenderProductos/> 
+      path: '/vender-productos',
+      element: <VenderProductos/> 
+    },
+    {
+      path: '/ver-productos-home',
+      element: <VerProductosHome/>
+    },
+    {
+      path: '/planes',
+      element: <Planes/>
+    },
+    {
+      path: '/planes-home',
+      element: <PlanesHome/>
+    },
+    {
+      path: '/clientes-registrados',
+      element: <ClientesRegistrados/>
+    },
+    {
+      path: '/home-administrador',
+      element: <HomeAdministrador/>
     }
 ])
 

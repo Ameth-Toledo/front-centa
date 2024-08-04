@@ -1,0 +1,54 @@
+.card-clientes {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-clientes-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.card-clientes-title {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card-clientes-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-clientes-payment {
+    font-size: 1.1rem;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.card-clientes-coach {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.card-clientes-coach span {
+    margin-right: 8px;
+}
+
+.icon-yes {
+    color: green;
+}
+
+.icon-no {
+    color: red;
+}
+
+.card-clientes-id {
+    font-size: 0.9rem;
+    margin: 0;
+}

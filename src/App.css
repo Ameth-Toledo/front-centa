@@ -186,3 +186,27 @@ body {
         max-width: 100%;
     }
 }
+
+.floating-icon {
+    position: fixed;
+    cursor: grab;
+    z-index: 1000; 
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .floating-icon:active {
+    cursor: grabbing;
+  }
+  
+  .gym-icon {
+    font-size: 24px;
+    color: #00aaff; 
+  }
+  

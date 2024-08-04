@@ -10,10 +10,11 @@ function BarEmpleado() {
         <div className="header-container">
             <img src={logo} alt="Logo" className="header-logo" />
             <div className="header-links">
-                <a href="/" className="header-link">Home</a>
+                <a href="/home-empleado" className="header-link">Home</a>
                 <a href="/ver-productos" className="header-link">Ver Productos</a>
                 <a href="/vender-productos" className="header-link">Vender Productos</a>
-                <a href="#rutinas" className="header-link">Registrar Clientes</a>
+                <a href="/planes" className='header-link'>Planes</a>
+                <a href="/clientes-registrados" className="header-link">Clientes Registrados</a>
             </div>
             <Link to="/login" className="header-button">
                 <FontAwesomeIcon icon={faUser} /> Iniciar sesión

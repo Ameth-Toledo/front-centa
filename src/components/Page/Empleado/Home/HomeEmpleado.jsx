@@ -14,7 +14,7 @@ function HomeEmpleado() {
       <div className="card-container">
         <CardEmpleado src={ver} titulo={"Ver Productos"} boton={"Ver"} enlace="/ver-productos" />
         <CardEmpleado src={vender} titulo={"Vender Productos"} boton={"Vender"} enlace="/vender-productos" />
-        <CardEmpleado src={registrar} titulo={"Registrar Clientes"} boton={"Registrar"} />
+        <CardEmpleado src={registrar} titulo={"Registrar Clientes"} boton={"Registrar"} enlace="/clientes-registrados"/>
       </div>
       <Footer />
     </div>
