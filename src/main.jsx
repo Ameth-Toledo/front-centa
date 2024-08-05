@@ -13,6 +13,8 @@ import Planes from './components/Page/Mensualidades/Planes/Planes.jsx'
 import PlanesHome from './components/Page/Mensualidades/PlanesHome/PlanesHome.jsx'
 import ClientesRegistrados from './components/Page/ClientesRegistrados/ClientesRegistrados.jsx'
 import HomeAdministrador from './components/Page/Administrador/Home/Administrador.jsx'
+import AgregarProductos from './components/Page/Administrador/AgregarProductos/AgregarProductos.jsx'
+import CrudProductos from './components/Page/Administrador/CRUDProductos/CrudProductos.jsx'
 
 const router=createBrowserRouter ([
     {
@@ -58,6 +60,14 @@ const router=createBrowserRouter ([
     {
       path: '/home-administrador',
       element: <HomeAdministrador/>
+    },
+    {
+      path: '/agregar-productos',
+      element: <AgregarProductos/>
+    },
+    {
+      path: '/ver-productos-agregados',
+      element: <CrudProductos/>
     }
 ])
 

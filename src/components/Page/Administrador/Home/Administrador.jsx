@@ -12,15 +12,10 @@ function HomeAdministrador() {
             <div className="cards-container">
                 <CardAdministrador
                     imageSrc={empleado}
-                    title={"Empleados"}
-                    description={"Aquí podrás ver los empleados en tu gimnasio."}
-                    buttonText={"Ver empleados"}
-                />
-                <CardAdministrador
-                    imageSrc={empleado}
                     title={"Agregar Productos"}
                     description={"Aquí podrás agregar productos a tu gimnasio."}
                     buttonText={"Agregar productos"}
+                    onClick="/agregar-productos"
                 />
                 <CardAdministrador
                     imageSrc={empleado}
@@ -30,9 +25,9 @@ function HomeAdministrador() {
                 />
                 <CardAdministrador
                     imageSrc={empleado}
-                    title={"Agregar Empleados"}
-                    description={"Aquí podrás agregar nuevos empleados a tu gimnasio."}
-                    buttonText={"Agregar empleados"}
+                    title={"Planes"}
+                    description={"Aquí podrás ver los planes disponibles."}
+                    buttonText={"Ver planes"}
                 />
             </div>
             <Footer />
